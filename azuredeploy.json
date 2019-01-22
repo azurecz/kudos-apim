@@ -166,6 +166,9 @@
         {
             "type": "Microsoft.ApiManagement/service/api-version-sets",
             "name": "[concat(variables('apimName'), '/kudos')]",
+            "dependsOn": [
+                "[variables('apimName')]"
+            ],
             "apiVersion": "2018-06-01-preview",
             "properties": {
                 "displayName": "Kudos API",

@@ -18,10 +18,11 @@ Click button and follow wizard.
 ```
 az group create -n kudos -l westeurope
 az group deployment create -g kudos \
-    --template-uri https://github.com/azurecz/kudos-app-apim/raw/master/azuredeploy.json
+    --template-uri https://github.com/azurecz/kudos-apim/raw/master/azuredeploy.json
 ```
 
 # Deploy API Management from local
 ```
+az group create -n kudos -l westeurope
 az group deployment create -g kudos --template-file azuredeploy.json
 ```
