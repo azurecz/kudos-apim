@@ -810,7 +810,7 @@
             ],
             "apiVersion": "2018-06-01-preview",
             "properties": {
-                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/updatekudos\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'updatekudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
+                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/updatekudos/{id}\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'updatekudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
                 "contentFormat": "xml"
             }
         },
@@ -869,7 +869,7 @@
             ],
             "apiVersion": "2018-06-01-preview",
             "properties": {
-                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/readkudos\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'readkudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
+                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/readkudos/{id}\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'readkudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
                 "contentFormat": "xml"
             }
         },
@@ -929,7 +929,7 @@
             ],
             "apiVersion": "2018-06-01-preview",
             "properties": {
-                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/deletekudos\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'deletekudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
+                "policyContent": "[concat('<policies>\n    <inbound>\n        <base />\n        <rewrite-uri template=\"/deletekudos/{id}\" />\n        <set-header name=\"x-functions-key\" exists-action=\"override\">\n            <value>', listsecrets(resourceId('Microsoft.Web/sites/functions', variables('backendFunctionsName'), 'deletekudos'),'2015-08-01').key  , '</value>\n        </set-header>\n    </inbound>\n    <backend>\n        <base />\n    </backend>\n    <outbound>\n        <base />\n    </outbound>\n    <on-error>\n        <base />\n    </on-error>\n</policies>')]",
                 "contentFormat": "xml"
             }
         },
