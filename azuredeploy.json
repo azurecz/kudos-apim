@@ -261,7 +261,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "[[\n    {\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }\n]"
+                                "sample": "[[\n    {\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }\n]"
                             }
                         ],
                         "headers": []
@@ -318,7 +318,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n    \"id\": 1,\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/1\"\n    }\n}"
+                                "sample": "{\n    \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n    }\n}"
                             }
                         ],
                         "headers": []
@@ -382,7 +382,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n    \"id\": 1,\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/1\"\n    }\n}"
+                                "sample": "{\n    \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n    }\n}"
                             }
                         ],
                         "headers": []
@@ -435,7 +435,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }"
+                                "sample": "{\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }"
                             }
                         ],
                         "headers": []
@@ -562,7 +562,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "[[\n    {\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }\n]"
+                                "sample": "[[\n    {\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }\n]"
                             }
                         ],
                         "headers": []
@@ -672,7 +672,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "[[\n    {\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }\n]"
+                                "sample": "[[\n    {\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }\n]"
                             }
                         ],
                         "headers": []
@@ -729,7 +729,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n    \"id\": 1,\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/1\"\n    }\n}"
+                                "sample": "{\n    \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n    }\n}"
                             }
                         ],
                         "headers": []
@@ -793,7 +793,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n    \"id\": 1,\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/1\"\n    }\n}"
+                                "sample": "{\n    \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n    \"giver\": \"user1\",\n    \"receiver\": \"user2\",\n    \"category\": \"Helping others\",\n    \"description\": \"Kudos for helping me setting up my pc\",\n    \"link\": {\n        \"rel\": \"kudos\",\n        \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n    }\n}"
                             }
                         ],
                         "headers": []
@@ -846,7 +846,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "{\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }"
+                                "sample": "{\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }"
                             }
                         ],
                         "headers": []
@@ -973,7 +973,7 @@
                         "representations": [
                             {
                                 "contentType": "application/json",
-                                "sample": "[[\n    {\n        \"id\": 1,\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/2\"\n        }\n    }\n]"
+                                "sample": "[[\n    {\n        \"id\": \"348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\",\n        \"giver\": \"user1\",\n        \"receiver\": \"user2\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my pc\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/1\"\n        }\n    },\n    {\n        \"id\": 2,\n        \"giver\": \"user1\",\n        \"receiver\": \"user3\",\n        \"category\": \"Helping others\",\n        \"description\": \"Kudos for helping me setting up my phone\",\n        \"link\": {\n            \"rel\": \"kudos\",\n            \"href\": \"/kudos/348e93ca-2bf9-47ac-bc31-ff39fbbf9feb\"\n        }\n    }\n]"
                             }
                         ],
                         "headers": []
