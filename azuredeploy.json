@@ -173,9 +173,9 @@
             "properties": {
                 "displayName": "Kudos API",
                 "description": "API for Kudos functionality.",
-                "versioningScheme": "Header",
+                "versioningScheme": "Segment",
                 "versionQueryName": null,
-                "versionHeaderName": "Api-Version"
+                "versionHeaderName": null
             }
         },
         {
